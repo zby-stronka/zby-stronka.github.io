@@ -1,9 +1,18 @@
+body{
+    background-color: tomato;
+}
+div{
+    border: 2px; dashed:yellow;
+}
 .gora{
     text-align: center;
+    padding: 20px 0;
 
 }
 .srodek1{
-text-align: center;
+padding: 10px;
+display: flex;
+justify-content: center;
 
 }
 
