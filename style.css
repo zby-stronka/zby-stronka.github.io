@@ -17,8 +17,8 @@ justify-content: center;
 }
 .jpg{
     padding: 6%;
-    border: 2px solid blue
-        color: blue
+    border: 2px solid blue;
+        color: blue;
 }
 
 .srodek2{
@@ -26,18 +26,27 @@ padding: 20%;
 border: 2px;
 display: flex;
 justify-content: space-around;
+}
 
 .displayjpg{
     flex: 3;
-}
+    }
 .descjpg{
     flex: 2;
+
+}
+.srodek2 div{
+    padding: 40px;
+display: flex;
+color: burlywood;
+justify-content: center;
+
 }
 
 }
 
 .dol{
-padding: 12px;
-text-align: center;
+padding: 120px 0;
+justify-content: center;
     
 }
