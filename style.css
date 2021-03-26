@@ -2,7 +2,7 @@ body{
     background-color: tomato;
 }
 div{
-    border: 2px; dashed:yellow;
+    border: 2px dashed yellowgreen
 }
 .gora{
     text-align: center;
@@ -26,7 +26,7 @@ padding: 20%;
 display: flex;
 justify-content: center;
 
-.jpg{
+.displayjpg{
     flex: 3;
 }
 .descjpg{
@@ -36,6 +36,7 @@ justify-content: center;
 }
 
 .dol{
-text-align: center;
+padding: 2;
+justify-content: center;
     
 }
