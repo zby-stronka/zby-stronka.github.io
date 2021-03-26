@@ -15,9 +15,16 @@ display: flex;
 justify-content: center;
 
 }
+.jpg{
+    padding: 6%;
+    border: 2px solid rgb(rgb(202, 67, 67), green, blue)
+    currentColor
+}
 
 .srodek2{
-text-align: center;
+padding: 20%;
+display: flex;
+justify-content: center;
 
 
 }
