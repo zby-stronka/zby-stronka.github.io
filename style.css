@@ -1,18 +1,20 @@
 body{
     background-color: tomato;
 }
+
+/* Podzielenie strony na bloki - div*/
 div{
     border: 2px dashed yellowgreen
 }
 .gora{
-    text-align: center;
-    padding: 20px 0;
-
+    text-align: center; /* ustawia tekst centralnie*/
+    padding: 20px 0; /* rozmiar ramki */
+    font-size: 24px;
 }
 .srodek1{
 padding: 10px;
-display: flex;
-justify-content:space-around
+display: flex; /*wyśweitalnie elementów bloku w trybie flex*/
+justify-content:space-around /* rozstawia syemtrycznie elementy w bloku*/
 }
 .jpg{
     padding: 6%;
