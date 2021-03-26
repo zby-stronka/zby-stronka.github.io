@@ -17,8 +17,8 @@ justify-content: center;
 }
 .jpg{
     padding: 6%;
-    border: 2px solid rgb(rgb(202, 67, 67), green, blue)
-    currentColor
+    border: 2px solid blue
+        color: blue
 }
 
 .srodek2{
