@@ -22,9 +22,10 @@ justify-content: center;
 }
 
 .srodek2{
-padding: 20%;
+padding: 80px;
+border: 2px;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 
 .displayjpg{
     flex: 3;
@@ -36,7 +37,7 @@ justify-content: center;
 }
 
 .dol{
-padding: 2;
-justify-content: center;
+padding: 12px;
+text-align: center;
     
 }
