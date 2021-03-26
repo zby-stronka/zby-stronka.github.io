@@ -12,8 +12,7 @@ div{
 .srodek1{
 padding: 10px;
 display: flex;
-justify-content: center;
-
+justify-content:space-around
 }
 .jpg{
     padding: 6%;
@@ -36,7 +35,7 @@ justify-content: space-around;
 
 }
 .srodek2 div{
-    padding: 40px;
+    padding: 160px;
 display: flex;
 color: burlywood;
 justify-content: center;
