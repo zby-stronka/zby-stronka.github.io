@@ -22,7 +22,7 @@ justify-content:space-around
 
 .srodek2{
 padding: 20%;
-border: 2px;
+
 display: flex;
 justify-content: space-around;
 }
@@ -37,6 +37,7 @@ justify-content: space-around;
 .srodek2 div{
     padding: 160px;
 display: flex;
+border: 2px solid black;
 color: burlywood;
 justify-content: center;
 
