@@ -26,6 +26,12 @@ padding: 20%;
 display: flex;
 justify-content: center;
 
+.jpg{
+    flex: 3;
+}
+.descjpg{
+    flex: 2;
+}
 
 }
 
