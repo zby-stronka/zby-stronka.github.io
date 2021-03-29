@@ -30,7 +30,7 @@ div{border: 1px solid black;
     
 }
 .logo:hover{
-    background-position: 0 --90px;
+    background-position: 0 -90px;
 }
 
 .logo:active{
