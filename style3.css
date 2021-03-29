@@ -34,7 +34,7 @@ div{border: 1px solid black;
 }
 
 .logo:active{
-    background-position: 0 -180;
+    background-position: 0 --180px;
 }
 
 .menu{
