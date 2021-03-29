@@ -26,7 +26,7 @@ div{border: 1px solid black;
     /* display: none */
     width: 90px;
     height: 90px;
-    background-image: url("sprite.jpg");   
+    background-image: url("sprites.jpg");   
     
 }
 .logo:hover{
