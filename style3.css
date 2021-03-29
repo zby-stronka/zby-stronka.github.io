@@ -61,33 +61,39 @@ div{border: 1px solid black;
 .wykres1{
     height: 70%;
     width: 5%;
+    background-color: yellow;
 }
 
 .wykres2{
     height: 60%;
     width: 5%;
+    background-color: yellow;
 }
 
 .wykres3{
     height: 50%;
     width: 5%;
+    background-color: yellow;
 }
 
 .wykres4{
     height: 40%;
     width: 5%;
+    background-color: yellow;
 }
 
 .wykres5{
     height: 30%;
     width: 5%;
+    background-color: yellow;
 }
 
 .relatywne_ramka{
     height: 15pc;
     width: 70%;
+    /* background-color: blue; */
 
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 
     display: flex;
     /* rozdzielenie pasków */
@@ -103,21 +109,25 @@ div{border: 1px solid black;
 .wykres1a{
     height: 7%;
     width: 65%;
+    background-color: blue;
     
 }
 .wykres2a{
     height: 7%;
     width: 55%;
+    background-color: blue;
     
 }
 .wykres3a{
     height: 7%;
     width: 45%;
+    background-color: blue;
     
 }
 .wykres4a{
     height: 7%;
     width: 35%;
+    background-color: blue;
     
 }
 
