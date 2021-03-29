@@ -3,8 +3,10 @@ body{
     font-size: 18px
 }
 div{border: 1px solid black;
-    
+
+   
 }
+
 .gora{
     display: flex;
     justify-content: flex-end;
@@ -17,11 +19,16 @@ div{border: 1px solid black;
     justify-content: space-between;
 }
 .logo{
-    border: 1px solid black;
-    text-align: center;
+    /* border: 1px solid black; */
+    border: none;
+    /* text-align: center; */
     padding: 10px;
+    display: none
+    width: 90px;
+    height: 90px;
     
 }
+
 .menu{
     border: 1px solid black;
     text-align: center;
@@ -147,4 +154,23 @@ div{border: 1px solid black;
     font-size: 2em;
     height: 10%;
     padding-left: 25%;
+}
+.obrazek{
+    width: 90px;
+    height: 90px;
+    display: block
+    background: url(img/sprites.jpg);
+    
+}
+.obrazek{
+    width: 90px;
+    height: 90px;
+
+}
+.obrazek:hover{
+    background: url(img/sprites.jpg) 0-90px;
+}
+
+.obrazek:active{
+    background: url(img/sprites.jpg) 0-180px;
 }
