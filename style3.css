@@ -138,11 +138,13 @@ div{border: 1px solid black;
 
 .czcionka{
     width: 100%;
+    border: none;
     
 }
 
 .czcionka1{
+    border: none;
     font-size: 2em;
     height: 10%;
-    padding-left: 45%;
+    padding-left: 25%;
 }
