@@ -1,9 +1,23 @@
 body{
     background: darkgray;
     border: 1px green;
+    font-size: 12px;
 }
 
 .title{
     border: 1px solid green;
     text-align: center;
+    font-size: 3em;
 }
+
+.menu1{
+    border: 1px solid indigo;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+
+}
+
