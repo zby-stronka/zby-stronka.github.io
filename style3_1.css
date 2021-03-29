@@ -1,0 +1,9 @@
+body{
+    background: darkgray;
+    border: 1px green;
+}
+
+.title{
+    border: 1px solid green;
+    text-align: center;
+}
