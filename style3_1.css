@@ -1,13 +1,14 @@
 body{
     background: darkgray;
     border: 1px green;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .title{
     border: 1px solid green;
     text-align: center;
     font-size: 3em;
+    padding: 2pc;
 }
 
 .menu1{
@@ -15,9 +16,29 @@ body{
     font-size: 2em;
     display: flex;
     justify-content: center;
+    padding: 1pc;
+}
+
+.menu1 div{
+    border: 1px solid black;
+}
+
+menu1_pod{
+    border: 1px solid chartreuse;
+
 }
 
 .img1{
+    border: 1px solid black;
+    width: 250vw;
+    height: 250vw;
+    background-image: url("IMG_20190303_191407.jpg");
+
+
+}
+
+.opis1{
+    border: 1px solid black;
 
 }
 
