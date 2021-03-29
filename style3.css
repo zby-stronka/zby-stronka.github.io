@@ -47,6 +47,10 @@ div{border: 1px solid black;
     text-align: left 30px;
     height: 30pc;
     width: 100%;
+    /* ustawienie ramki w środku pola */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 
 }
@@ -99,7 +103,7 @@ div{border: 1px solid black;
     /* rozdzielenie pasków */
     flex-direction: column;
     /* ustawienie poziome */
-    justify-content: space-around;
+    justify-content:space-evenly
     /* ustawienie poziome */
     /* align-items:flex-start */
     
@@ -107,25 +111,25 @@ div{border: 1px solid black;
 }
 
 .wykres1a{
-    height: 7%;
+    height: 10%;
     width: 65%;
     background-color: blue;
     
 }
 .wykres2a{
-    height: 7%;
+    height: 10%;
     width: 55%;
     background-color: blue;
     
 }
 .wykres3a{
-    height: 7%;
+    height: 10%;
     width: 45%;
     background-color: blue;
     
 }
 .wykres4a{
-    height: 7%;
+    height: 10%;
     width: 35%;
     background-color: blue;
     
