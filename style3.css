@@ -51,7 +51,8 @@ div{border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
+        
 
 }
 .absolutne_ramka{
@@ -136,14 +137,12 @@ div{border: 1px solid black;
 }
 
 .czcionka{
-    font-size: 2em;
-    border: none;
-    width: 100px;
-    height: 50px
-    padding-left: 25%;
+    width: 100%;
+    
 }
+
 .czcionka1{
-    font-size: 3em;
+    font-size: 2em;
     border: none;
     height: 10%;
     padding-left: 45%;
