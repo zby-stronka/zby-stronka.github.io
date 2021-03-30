@@ -25,7 +25,9 @@ a{
     font-size: 1.5em;
 }
 
-
+.footer{
+    padding: 1%;
+    text-align: right;
 }
 
 a:nth-child(1){grid-area: about;}
@@ -35,8 +37,10 @@ a:nth-child(4){grid-area: github;}
 a:nth-child(5){grid-area: mail;}
 
 
-@media (max-width: 760px)
+@media (max-width: 748px)
 
-a{margin-top: 10px;}
-
+a{margin-top: 10px;
+text-align: center;
+font: size 1em;
 }
+
