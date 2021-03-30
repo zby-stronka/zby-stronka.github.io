@@ -17,6 +17,7 @@ a{
     color: inherit;
     padding: 3%;
     text-align: center;
+    display: flex;
     text-decoration: none; /*usuwa podkreślenie związane z linkiem */
     justify-content: center;
     align-items: center;
@@ -37,10 +38,11 @@ a:nth-child(4){grid-area: github;}
 a:nth-child(5){grid-area: mail;}
 
 
-@media (max-width: 748px)
+@media (max-width: 748px){
 
-a{margin-top: 10px;
+a{ margin-top: 10px;
 text-align: center;
 font: size 1em;
+display: block;
 }
-
+}
