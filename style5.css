@@ -1,0 +1,42 @@
+body{
+    background-color: #ff0505;
+    text-align: center;
+}
+
+.grid{
+    border: 2px dashed blue;
+    display: grid;
+    grid-template-areas:
+    "about info projekty"
+    "github mail projekty";
+}
+
+a{
+    border: 2px dashed yellow;
+    /* przyjęcie koloru rodzica */
+    color: inherit;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none; /*usuwa podkreślenie związane z linkiem */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 20%;
+    font-size: 1.5em;
+}
+
+
+}
+
+a:nth-child(1){grid-area: about;}
+a:nth-child(2){grid-area: info;}
+a:nth-child(3){grid-area: projekty;}
+a:nth-child(4){grid-area: github;}
+a:nth-child(5){grid-area: mail;}
+
+
+@media (max-width: 760px)
+
+a{margin-top: 10px;}
+
+}
