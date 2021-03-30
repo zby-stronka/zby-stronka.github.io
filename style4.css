@@ -21,7 +21,7 @@ div{
 }
 
 .sticky{
-    border: 6px rgb(3, 3, 95);
+    border: 6px rgb(111, 111, 250);
     background-color: rgb(111, 111, 250);
     padding: 5% 5%;
     font-size: 25px;
@@ -48,7 +48,7 @@ div{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: 5px dashed blue;
+    border: 5px dashed rgb(223, 238, 200);
     padding: 7% 0;
     margin-bottom: 10%;
 }
