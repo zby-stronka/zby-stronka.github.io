@@ -1,0 +1,98 @@
+/* zawartoś ctagu * (gwiazdka) dotyczy wszystkich tagów */
+*{
+/* poniższe polecie powoduje że "pudełka" są w innych i nie zachodzą na siebie */
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    background-color: rgb(223, 238, 200);
+    /* ustawienie body dwa razy większego niż okno przeglądarki */
+    height: 200vh;
+}
+
+div{
+    display: block;
+}
+
+.static{
+    position: static;
+    text-align: center;
+}
+
+.sticky{
+    border: 6px rgb(3, 3, 95);
+    background-color: rgb(111, 111, 250);
+    padding: 5% 5%;
+    font-size: 25px;
+    /* przy przesunięciu ekranu pole będzie widoczne i nie schowa się */
+    position: sticky;
+    /* pozycjonuje pole na ekranie, w tym przypadku na górze ekranu */
+    top: 0;
+    z-index: 1;
+
+}
+
+.fixed{
+    border: 5px solid black;
+    background-color: gray;
+    padding: 2% 5%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 5px dashed blue;
+    padding: 7% 0;
+    margin-bottom: 10%;
+}
+/* pozycja relatywna jest wyswietlana w stałym miejscu strony i przesuwa się w raz z przewijaniem strony */
+/* przechodząc przez inne elementy jest wyświetlana nad nimi */
+.relative{
+    border: 10px solid red;
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    margin-bottom: 5%;
+}
+/* pozycja absolute powoduje wyświetlenie (przykrycie) innego pola */
+.absolute{
+    border: 9px solid brown;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: whitesmoke;
+    background-size: cover;
+    /* display: none; */
+}
+/* ustawia kolejność wyświetlania */
+/* active powoduje wykonanie zawartości taga po kliknięciu myszką obiekt */
+.absolute.clickable{}
+
+.clickable:active{
+    /* opacity - ustawia przezrpczystość */
+    /* 1 - nieprzezroczyste */
+    /* 0 - całkowicie przezroczyste */
+    opacity: 0;
+    /* transition określa czas w jakim będzie trwać zmiana po kliknięciu w obiekt */
+    transition: 5s;
+}
+
+.img1{background-image: url(obrazy/slon.jpg);}
+.img2{background-image: url(obrazy/nosorozec.jpg);}
+.img3{background-image: url(obrazy/lew.jpg);}
+.img4{background-image: url(obrazy/zebra.jpg);}
+
+/* ustawienie wyświetlenie strony na telefonie */
+@media (max-device-width: 748px){
+    .relative{
+        width: 80vw;
+        height: 80vw;
+    }
+}
