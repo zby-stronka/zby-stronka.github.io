@@ -23,7 +23,7 @@ div{
 .sticky{
     border: 6px rgb(111, 111, 250);
     background-color: rgb(111, 111, 250);
-    padding: 5% 5%;
+    padding: 2% 5%;
     font-size: 25px;
     /* przy przesunięciu ekranu pole będzie widoczne i nie schowa się */
     position: sticky;
