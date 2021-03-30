@@ -45,4 +45,7 @@ text-align: center;
 font: size 1em;
 display: block;
 }
+.grid{
+    display: block
+};
 }
