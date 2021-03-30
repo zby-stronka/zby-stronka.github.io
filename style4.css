@@ -90,6 +90,9 @@ div{
     /* transition określa czas przechodzenie widoku na drugi*/
     transition: 5s;
 }
+.clickable:hover{
+    background-image: url(obrazy/pytajnik.jpg);
+}
 
 .img1{background-image: url(obrazy/slon.jpg);}
 .img2{background-image: url(obrazy/nosorozec.jpg);}
