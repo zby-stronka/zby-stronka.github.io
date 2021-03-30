@@ -17,6 +17,7 @@ div{
 .static{
     position: static;
     text-align: center;
+    font-size: 40px;
 }
 
 .sticky{
@@ -40,7 +41,7 @@ div{
     left: 0;
     bottom: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1;    
 }
 
 .content{
@@ -54,11 +55,15 @@ div{
 /* pozycja relatywna jest wyswietlana w stałym miejscu strony i przesuwa się w raz z przewijaniem strony */
 /* przechodząc przez inne elementy jest wyświetlana nad nimi */
 .relative{
+    /*  */
     border: 10px solid red;
-    height: 40vw;
-    width: 40vw;
+    height: 30vw;
+    width: 30vw;
     position: relative;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin-trim: 60%; */
 }
 /* pozycja absolute powoduje wyświetlenie (przykrycie) innego pola */
 .absolute{
@@ -69,6 +74,8 @@ div{
     left: 0;
     background-color: whitesmoke;
     background-size: cover;
+    /* wyświetla się tylko jeden */
+    /* background-repeat: none; */
     /* display: none; */
 }
 /* ustawia kolejność wyświetlania */
@@ -92,7 +99,10 @@ div{
 /* ustawienie wyświetlenie strony na telefonie */
 @media (max-device-width: 748px){
     .relative{
-        width: 80vw;
-        height: 80vw;
+        width: 60vw;
+        height: 60vw;
+    }
+    .static{
+        font-size: 10vw;
     }
 }
