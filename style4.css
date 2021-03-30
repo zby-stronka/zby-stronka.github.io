@@ -80,7 +80,7 @@ div{
     /* 1 - nieprzezroczyste */
     /* 0 - całkowicie przezroczyste */
     opacity: 0;
-    /* transition określa czas w jakim będzie trwać zmiana po kliknięciu w obiekt */
+    /* transition określa czas przechodzenie widoku na drugi*/
     transition: 5s;
 }
 
