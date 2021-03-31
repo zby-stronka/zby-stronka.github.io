@@ -23,29 +23,20 @@ main {
     border: 1px yellow;
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
-}
-artykul {
-    display: flex;
-    border-bottom: solid green;
-    flex-direction: column;
-
-}
-.obok {
-    display: block;
-    border-left: 1px brown;
+    /* flex-direction: column; */
 }
 .artykul1 {
-    width: 70%;
-
+    display: block;
+    flex: 2;
 }
-
 .polecane {
-    border-left: indigo;
-    font-size: 14px;
+    flex: 1;
+    border-left: 3px dotted green;
 }
 
-.artykul2 {
-    width: 30%;
-    border-left: 1px saddlebrown;
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
