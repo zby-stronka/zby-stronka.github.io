@@ -1,0 +1,51 @@
+body{
+    background-image: image("hotel-wallpaper-black.png");
+}
+
+img {
+    max-width: 100%;
+}
+
+.TopHeader {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 2%;
+}
+
+.topnav {
+    display: flex;
+    font-size: 20px;
+    border-bottom: 2px solid red;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+main {
+    border: 1px yellow;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+artykul {
+    display: flex;
+    border-bottom: solid green;
+    flex-direction: column;
+
+}
+.obok {
+    display: block;
+    border-left: 1px brown;
+}
+.artykul1 {
+    width: 70%;
+
+}
+
+.polecane {
+    border-left: indigo;
+    font-size: 14px;
+}
+
+.artykul2 {
+    width: 30%;
+    border-left: 1px saddlebrown;
+}
