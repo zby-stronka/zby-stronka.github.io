@@ -1,42 +1,55 @@
-body{
-    background-image: image("hotel-wallpaper-black.png");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(hotel-wallpaper-black.png);
+    text-align: center;
+    padding: 5%;
+}
+
+.logo {
+    padding-bottom: 3%;
+}
+nav {
+    display: flex;
+    border: 3px solid yellow;
+    justify-content: space-evenly;
+    padding: 3%;
+    color: wheat;
+    width: 100%;
+}
+.nav {
+    font-size: 18px;
+    font-style: white;
+}
+
+.main {
+    color: whitesmoke;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top1 {
+    font-size: 14px;
+    flex: 2;
+    /* display: flex; */
 }
 
 img {
-    max-width: 100%;
-}
-
-.TopHeader {
-    text-align: center;
-    border-bottom: 2px solid black;
-    padding: 2%;
-}
-
-.topnav {
-    display: flex;
-    font-size: 20px;
-    border-bottom: 2px solid red;
     padding: 1%;
-    justify-content: space-evenly;
 }
-main {
-    border: 1px yellow;
-    display: flex;
-    justify-content: space-around;
-    /* flex-direction: column; */
+.obrazek {
+    background-image: url(article.png);
 }
-.artykul1 {
-    display: block;
+.left {
     flex: 2;
 }
-.polecane {
+.prawy {
+    font-style: white;
     flex: 1;
-    border-left: 3px dotted green;
-}
-
-
-.content {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    padding: 2%;
+    border-right:2px dotted greenyellow;
+    
 }
