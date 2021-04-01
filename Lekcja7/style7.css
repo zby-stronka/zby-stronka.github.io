@@ -1,0 +1,107 @@
+body {
+  background-color: bisque;
+  border: 3px solid red;
+  padding: 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 60%;
+}
+
+.TwoCols {
+  margin: 1% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 4px solid darkblue;
+}
+
+.TwoCols .komunikat1 {
+  padding: 2%;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.TwoCols .cruella {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px dotted black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.top {
+  padding: 2%;
+  border: 4px solid brown;
+  text-align: center;
+}
+
+main {
+  border: 4px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main div {
+  margin: 1% 0;
+  border: 4px solid darkgreen;
+  width: 30vw;
+  height: 30vw;
+  background-size: cover;
+  background-position: center;
+}
+
+main div:nth-child(1) {
+  background-image: url(img/d1.jpg);
+}
+
+main div:nth-child(2) {
+  background-image: url(img/d2.jpg);
+}
+
+main div:nth-child(3) {
+  background-image: url(img/d3.jpg);
+}
+
+main div:nth-child(4) {
+  background-image: url(img/d4.jpg);
+}
+
+main div:nth-child(5) {
+  background-image: url(img/d5.jpg);
+}
+
+main div:nth-child(6) {
+  background-image: url(img/d6.jpg);
+}
+
+footer {
+  border: 3px solid brown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=style7.css.map */

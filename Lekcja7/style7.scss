@@ -1,0 +1,62 @@
+body {
+    background-color: bisque;
+    border: 3px solid red;
+    padding: 1%;
+    box-sizing: border-box;
+}
+img {
+    max-width: 60%;
+}
+.TwoCols {
+    margin: 1% 0;
+    display: flex;
+    border: 4px solid darkblue;
+        .komunikat1 {
+        padding: 2%;
+        flex: 3;    
+        }
+        .cruella {
+            display: flex;
+          border: 1px dotted black;
+          flex: 1;
+          justify-content: center;
+                  
+    }
+    
+}
+.second {
+    flex-direction:row-reverse; // w tym przypadku odwraca koljność wyświetalania div'ów
+    }
+.top {
+    padding: 2%;
+    border: 4px solid brown ;    
+    text-align: center;
+}
+
+main {
+    border:  4px solid green;
+    display: flex; // domyślnie w tym miejscu dispaly ustawiony jest na block
+    flex-wrap: wrap;
+    justify-content: space-around;
+    div {
+        margin: 1% 0;
+        border: 4px solid darkgreen;
+        width: 30vw;
+        height: 30vw;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    @for $i from 1 to 7 { // pętla, w tym przypadku wylicza zmienną dla dziecka
+        div:nth-child(#{$i}) {
+            background-image: url(img/d#{$i}.jpg);
+        }
+    }
+}
+footer {
+    border: 3px solid brown ;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+// wyświetlenie ikonek
