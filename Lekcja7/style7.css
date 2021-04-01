@@ -106,7 +106,7 @@ footer {
   padding: 2%;
 }
 
-@media (max-witdh: 748px) {
+@media (max-width: 748px) {
   .TwoCols {
     margin-top: 10px;
     text-align: center;
