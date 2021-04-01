@@ -57,6 +57,22 @@ footer {
     border: 3px solid brown ;
     display: flex;
     justify-content: space-evenly;
+    padding: 2%;
 
 }
-// wyświetlenie ikonek
+
+
+
+// na telefony
+@media (max-witdh: 748px){
+    .TwoCols {
+        margin-top: 10px;
+        text-align: center;
+        display: block;
+        // flex-direction: column;
+    }
+    div {
+        display: block;                
+    }
+
+}

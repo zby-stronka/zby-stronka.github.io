@@ -103,5 +103,17 @@ footer {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  padding: 2%;
+}
+
+@media (max-witdh: 748px) {
+  .TwoCols {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+  }
+  div {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style7.css.map */
