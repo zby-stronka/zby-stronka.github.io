@@ -1,0 +1,35 @@
+body {
+    background-color: burlywood;
+    font-size: 14px;
+    display: flex;
+}
+header {
+    font-size: 3rem;
+    text-align: center;
+    border-bottom:2px dotted chocolate;
+}
+main {
+    border:4px solid cornflowerblue;
+    font-size: 2rem;
+}
+section {
+    border: 2px solid red;
+    display: flex;
+    // height: 80%;
+    // height: 100px;
+}
+.content {
+    display: flex;
+    flex: 6;
+}
+.lewy {
+    display: flex;
+    flex: 1;
+}
+.prawy {
+    display: flex;
+    flex: 1;
+}
+.footer {
+border-top: 2px dotted red;
+}
