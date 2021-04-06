@@ -1,53 +1,10 @@
-body{
-    background-color: tomato;
+body {
+  background-color: burlywood;
+  height: 100%;
+  font-size: 15px;
 }
 
-/* Podzielenie strony na bloki - div*/
-div{
-    border: 2px dashed yellowgreen
+.tytul {
+  font-size: 3em;
 }
-.gora{
-    text-align: center; /* ustawia tekst centralnie*/
-    padding: 20px 0; /* rozmiar ramki */
-    font-size: 24px;
-}
-.srodek1{
-padding: 10px;
-display: flex; /*wyśweitalnie elementów bloku w trybie flex*/
-justify-content:space-around /* rozstawia syemtrycznie elementy w bloku*/
-}
-.jpg{
-    padding: 6%;
-    border: 2px solid blue;
-        color: blue;
-}
-
-.srodek2{
-padding: 20%;
-
-display: flex;
-justify-content: space-around;
-}
-
-.displayjpg{
-    flex: 3;
-    }
-.descjpg{
-    flex: 2;
-
-}
-.srodek2 div{
-    padding: 160px;
-display: flex;
-border: 2px solid black;
-color: burlywood;
-justify-content: center;
-
-}
-
-
-.dol{
-    text-align: center;
-    padding: 10px 0;
-    
-}
+/*# sourceMappingURL=style.css.map */
