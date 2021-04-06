@@ -35,12 +35,12 @@ section {
 
 .nav {
   font-size: 2em;
-  color: wheat;
+  color: white;
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
   border-right: solid black;
-  background-color: blue;
+  background-color: lightskyblue;
 }
 
 .blok {
@@ -48,5 +48,13 @@ section {
   -webkit-box-flex: 8;
       -ms-flex: 8;
           flex: 8;
+  height: 100%;
+  width: 200%;
+}
+
+.button {
+  color: white;
+  font-size: 11px;
+  background-color: black;
 }
 /*# sourceMappingURL=style10.css.map */

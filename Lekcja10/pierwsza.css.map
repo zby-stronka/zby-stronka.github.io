@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,mBAAmB;CACxC",
+    "sources": [
+        "pierwsza.scss"
+    ],
+    "names": [],
+    "file": "pierwsza.css"
+}
