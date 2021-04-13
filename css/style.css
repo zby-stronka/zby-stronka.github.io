@@ -36,6 +36,10 @@ header {
   margin-left: 1%;
 }
 
+#zegar {
+  font-size: 3em;
+}
+
 .inne {
   opacity: 0%;
 }
@@ -65,7 +69,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-right: none;
+  border-right: 2px dotted yellow;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -86,6 +90,11 @@ article {
   -webkit-box-flex: 15;
       -ms-flex: 15;
           flex: 15;
+  color: bisque;
+}
+
+iframe {
+  border: 2px dashed red;
 }
 
 footer {
@@ -105,5 +114,6 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 14px;
+  color: bisque;
 }
 /*# sourceMappingURL=style.css.map */

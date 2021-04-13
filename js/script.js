@@ -1,16 +1,23 @@
 // zegar
+
 function zegar()
 {
- var dzien = dzisiaj.getDate();
-var miesiac = dzisiaj.getMonth()+1;
-var rok = dzisiaj.getFullYear();
+let dzisiaj = new Date() 
+let dzien = dzisiaj.getDate();
+if (dzien < 10) dzien = "0"+miesiac;
+let miesiac = dzisiaj.getMonth()+1;
+if (miesiac < 10) miesiac = "0"+miesiac;
+let rok = dzisiaj.getFullYear();
 
-var godzina = dzisiaj.getHours();
+let godzina = dzisiaj.getHours();
 if (godzina<10) godzina = "0"+godzina;
-var minuta = dzisiaj.getMinutes();
+let minuta = dzisiaj.getMinutes();
 if  (minuta<10) minuta = "0"+minuta;
-var sekunda = dzisiaj.getSeconds();
+let sekunda = dzisiaj.getSeconds();
 if  (sekunda<10) sekunda = "0"+sekunda;
 
-setTimeout("zegar"),1000;
+document.getElementById("zegar").innerHTML = dzien+"."+miesiac+"."+rok+"  "+godzina+":"+minuta+":"+sekunda;
+
+
+setTimeout(zegar,1000);
 }

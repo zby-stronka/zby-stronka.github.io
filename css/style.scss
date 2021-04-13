@@ -32,6 +32,10 @@ header{
 
 }
 
+#zegar{
+    font-size: 3em;
+}
+
 .inne{
     opacity: 0%;
 }
@@ -54,7 +58,7 @@ button:hover{
 nav{
     flex: 3;
     display: flex;
-    border-right: none;
+    border-right: 2px dotted yellow;
     flex-direction: column;
     height: 40vh;
     margin-top: 10px;
@@ -68,8 +72,12 @@ nav{
 }
 article{
     flex: 15;
+    color: bisque;
 }
 
+iframe{
+    border: 2px dashed red;
+}
 
 footer{
     display: flex;
@@ -82,4 +90,5 @@ footer{
     font-size: 1em;
     align-items: center;
     padding-top: 14px;
+    color: bisque;
 }
