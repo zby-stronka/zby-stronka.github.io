@@ -44,7 +44,7 @@ header {
 
 @font-face {
   font-family: Akronim-Regular;
-  src: url(./fonty/Akronim-Regular.ttf);
+  src: url(../fonty/Akronim-Regular.ttf);
 }
 
 #zegar {
