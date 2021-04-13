@@ -21,3 +21,12 @@ document.getElementById("zegar").innerHTML = dzien+"."+miesiac+"."+rok+"  "+godz
 
 setTimeout(zegar,1000);
 }
+
+
+// zmiana strony
+
+function strony(link)
+{
+    document.querySelector("iframe").src = link;
+    
+}

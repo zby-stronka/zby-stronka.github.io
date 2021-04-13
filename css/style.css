@@ -94,7 +94,7 @@ article {
 }
 
 iframe {
-  border: 2px dashed red;
+  border: 2px dashed red !important;
 }
 
 footer {
