@@ -1,10 +1,14 @@
-body {
-  background-color: burlywood;
-  height: 100%;
-  font-size: 15px;
+* {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
-.tytul {
-  font-size: 3em;
+body {
+  background-image: url(img/pexels-felix-mittermeier-956999.jpg);
+}
+
+header {
+  padding: 5px;
+  border-left: 3px solid green;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,109 @@
+* {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body {
+  display: flexbox;
+  font-size: 14px;
+  color: darkkhaki;
+  background-image: url(../img/pexels-felix-mittermeier-956999.jpg);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 88vw;
+  display: flex;
+  padding: 5px;
+  margin: 3%;
+  border-bottom: 3px solid green;
+  color: antiquewhite;
+}
+
+.logo {
+  font-size: 5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3%;
+  margin-left: 1%;
+}
+
+.inne {
+  opacity: 0%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3%;
+}
+
+button {
+  font-size: 13px;
+  background: none;
+  color: antiquewhite;
+  padding: 5px;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+nav {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 40vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  scroll-padding-bottom: 5px;
+  color: antiquewhite;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+article {
+  -webkit-box-flex: 15;
+      -ms-flex: 15;
+          flex: 15;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 88vw;
+  border-top: 2px solid blue;
+  margin-left: 3%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer {
+  font-size: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 14px;
+}
+/*# sourceMappingURL=style.css.map */

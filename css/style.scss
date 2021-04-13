@@ -1,0 +1,85 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    display: flexbox;
+    font-size: 14px;
+    color: darkkhaki;
+    background-image: url(../img/pexels-felix-mittermeier-956999.jpg);
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 88vw;
+    display: flex;
+    padding: 5px;
+    margin: 3%;
+    border-bottom:3px solid green;
+    color: antiquewhite;
+}
+
+.logo{
+    // display: flex;
+    font-size: 5em;
+    align-items: center;
+    // justify-content: center;
+    // padding: 5px;
+    margin-bottom: 3%;
+    margin-left:  1%;
+
+}
+
+.inne{
+    opacity: 0%;
+}
+main{
+    display: flex;
+    margin-bottom: 3%;
+}
+button{
+    font-size: 13px;
+    // opacity: 50%;
+    background: none;
+    color: antiquewhite;
+    padding: 5px;   
+}
+
+button:hover{
+    opacity: 80%;
+}
+
+nav{
+    flex: 3;
+    display: flex;
+    border-right: none;
+    flex-direction: column;
+    height: 40vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    scroll-padding-bottom: 5px;
+    color: antiquewhite;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+article{
+    flex: 15;
+}
+
+
+footer{
+    display: flex;
+    width: 88vw;
+    border-top:2px solid blue;
+    margin-left: 3%;
+    justify-content: space-around;
+}
+.footer{
+    font-size: 1em;
+    align-items: center;
+    padding-top: 14px;
+}
