@@ -1,0 +1,22 @@
+body{
+    color: azure;
+    font-size: 15px;
+    display: flexbox;
+}
+
+p{
+    font-size: 1em;
+
+}
+
+header{
+    display: flex;
+}
+header h1{
+    padding-left: 5%;
+    font-size: 2em;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+header p{
+    font-family: 'Courier New', Courier, monospace;
+}
