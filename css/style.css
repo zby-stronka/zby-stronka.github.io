@@ -3,6 +3,10 @@
           box-sizing: content-box;
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
   display: flexbox;
   font-size: 14px;
@@ -39,10 +43,6 @@ header {
 }
 
 @font-face {
-  src: url(czcionki/);
-}
-
-@font-face {
   font-family: Akronim-Regular;
   src: url(../fonty/Akronim-Regular.ttf);
 }
@@ -61,7 +61,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 2;
-  height: 100%;
+  height: 60vh;
 }
 
 button {
@@ -123,6 +123,7 @@ footer {
   border-bottom: 2px solid blue;
   margin-left: 3%;
   margin-bottom: 1%;
+  margin-top: 1%;
   padding-bottom: 3%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
